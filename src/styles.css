@@ -1,3 +1,21 @@
-.main_image{
-  width: 50%;
+body{
+  background-color: lightblue;
+  font-family: Helvetica, sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em auto;
+  max-width: 300px;
+  background-color: antiquewhite;
+  padding: 3em;
+  border-radius: 8px;
+}
+
+.wrapper img {
+  width: 300px;
+  margin: 1em 0;
 }
