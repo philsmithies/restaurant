@@ -2,6 +2,7 @@
 
 Single Page Web App for a restaurant listing site built using JS and Webpack. Made use of the new webpack feature of URL Loader and Asset Loader to manage the images. 
 
-🖥    [Live Demo](https://philsmithies.github.io/restaurant/) 
+🖥 
+Live Demo](https://philsmithies.github.io/restaurant/) 
 
 <img src="./landing.png" style="width: 200px;" alt="restaurant demo">
