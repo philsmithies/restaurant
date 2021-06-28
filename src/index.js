@@ -9,21 +9,18 @@ function component() {
   const home = document.getElementById('home')
   const openingTimes = document.getElementById('openingTimes')
 
-  content.appendChild(homePage())
+  homePage()
 
   menu.addEventListener('click', () => {
-    content.innerHTML = ''
-    content.appendChild(menuPage());
+    menuPage();
   })
 
   home.addEventListener('click', () => {
-    content.innerHTML = ''
-    content.appendChild(homePage());
+   homePage();
   })
 
   openingTimes.addEventListener('click', () =>{
-    content.innerHTML = ''
-    content.appendChild(times())
+   times()
   })
 
   return content;
